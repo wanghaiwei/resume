@@ -1,0 +1,83 @@
+% !TEX TS-program = xelatex
+% !TEX encoding = UTF-8 Unicode
+% !Mode:: "TeX:UTF-8"
+
+\documentclass{resume}
+\usepackage{zh_CN-Adobefonts_external} % Simplified Chinese Support using external fonts (./fonts/zh_CN-Adobe/)
+% \usepackage{NotoSansSC_external}
+% \usepackage{NotoSerifCJKsc_external}
+% \usepackage{zh_CN-Adobefonts_internal} % Simplified Chinese Support using system fonts
+\usepackage{linespacing_fix} % disable extra space before next section
+\usepackage{cite}
+
+\begin{document}
+\pagenumbering{gobble} % suppress displaying page number
+
+\name{王海蔚}
+
+\basicInfo{
+  \email{wanghaiwe.i.1999@163.com} \textperiodcentered\ 
+  \phone{(+86) 182-6225-8003} 
+}
+ 
+\section{\faGraduationCap\  教育背景}
+\datedsubsection{\textbf{182-6225-8003}, 182-6225-8003}{2017 -- 至今}
+\textit{在读本科生}\ 软件学院, 数字媒体技术, 预计 2021 年 7 月毕业
+
+\datedsubsection{\textbf{东北大学理学院大学数学网络考试平台选考系统重制工程}}{2018年6月 - 2020年6月}
+\role{Web/Vue.js/kotlin}{团队项目-前端/运维}
+该项目库为私有库,如需查看代码请联系本人
+\begin{onehalfspacing}
+项目地址: https://github.com/wanghaiwei/xkxt-reloaded-frontend
+简介：原有的东北大学理学院大学数学网络考试平台选考系统重构项目。技术上前后端分离，用Postgresql作为数据库，kotlin为后端编程语言，采用Vert.x高性能框架提供Api服务，静态页面采用Vue.js框架。保证静态页面服务不会断，以提高用户体验。
+\newline
+前端特性
+\begin{itemize}
+  \item 放弃原有的Spring 框架，采用了前后端分离的架构
+  \item 采用了Vue.js框架，组件库使用了Muse-ui和iview等UI框架
+\end{itemize}
+\end{onehalfspacing}
+
+\datedsubsection{\textbf{基于修罗/xiunoBBS的docker方案}}{2019年6月}
+\role{Docker}{个人项目}
+\begin{onehalfspacing}
+一款开源PHP论坛xiunobbs的Docker化方案, https://github.com/wanghaiwei/xiuno-docker
+\begin{itemize}
+  \item 可通过配置文件快速部署
+  \item 方便运行环境隔离
+  \item 简化常规安装的繁琐操作
+\end{itemize}
+\end{onehalfspacing}
+
+\datedsubsection{\textbf{《舞侠》项目}}{2019年7月– 2020年2月}
+\role{Web/Vue.js}{团队项目-前端}
+该项目库为私有库,如需查看代码请联系本人
+\begin{onehalfspacing}
+项目地址：https://github.com/wanghaiwei/DanceKnight-frontend
+\newline
+简介：一个舞蹈类社区项目。目标是仿知乎一样的大型领域专业类问答社区，同时包含信息发布浏览系统。
+\end{onehalfspacing}
+
+\section{\faCogs\ IT 技能}
+% increase linespacing [parsep=0.5ex]
+\begin{itemize}[parsep=0.5ex]
+  \item 编程语言: javascript/C\#/C++
+  \item 平台: Linux/Windows
+\end{itemize}
+
+\section{\faHeartO\ 获奖情况}
+\datedline{\textit{辽宁省二等奖}, 第九届蓝桥杯}{2018年3月}
+
+\section{\faInfo\ 其他}
+% increase linespacing [parsep=0.5ex]
+\begin{itemize}[parsep=0.5ex]
+  \item 技术博客: http://rayfalling.com
+  \item GitHub: https://github.com/wanghaiwei
+  \item 自建Git: https://git.rayfalling.com/rayfalling
+\end{itemize}
+
+%% Reference
+%\newpage
+%\bibliographystyle{IEEETran}
+%\bibliography{mycite}
+\end{document}
